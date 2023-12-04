@@ -10,6 +10,5 @@ import lombok.ToString;
 @Setter
 @ToString
 public class Devise {
-    private int id_devise;
     private String type_devise;
 }

@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 public class Compte {
     private int id_compte;
-    private String nom ;
+    private String nom_utilisateur ;
     private Transaction transaction;
     private Devise devise;
 }

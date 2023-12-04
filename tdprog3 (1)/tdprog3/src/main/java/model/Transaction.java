@@ -11,5 +11,5 @@ import lombok.ToString;
 @Getter
 public class Transaction {
     private int id_transaction;
-    private String type_transaction;
+    private boolean type_transaction;
 }

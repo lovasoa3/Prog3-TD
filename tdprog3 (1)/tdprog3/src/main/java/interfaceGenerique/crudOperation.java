@@ -9,9 +9,5 @@ public interface crudOperation {
 
     Compte insert(Compte toInsert);
     List<Compte> findAll() throws SQLException;
-
-    Compte update(Compte toUpdate);
-
-
-
+    Compte delete(Compte toDelete) throws SQLException;
 }
